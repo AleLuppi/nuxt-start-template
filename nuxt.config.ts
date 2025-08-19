@@ -5,5 +5,21 @@ export default defineNuxtConfig({
 
   css: ["~/assets/css/main.css"],
 
-  modules: ["@nuxt/eslint", "@nuxt/image", "@nuxt/ui", "@nuxt/test-utils"],
+  modules: [
+    // official
+    "@nuxt/eslint",
+    "@nuxt/image",
+    "@nuxt/ui",
+    "@nuxt/test-utils",
+
+    // community
+    [
+      "@nuxtjs/i18n",
+      {
+        defaultLocale: "en",
+        locales: [{ code: "en", name: "English", file: "en.json" }],
+        strategy: "no_prefix",
+      },
+    ],
+  ],
 });
