@@ -24,5 +24,6 @@ export default defineNuxtConfig({
         strategy: "no_prefix",
       },
     ],
+    "@pinia/nuxt",
   ],
 });
