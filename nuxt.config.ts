@@ -43,5 +43,6 @@ export default defineNuxtConfig({
       },
     ],
     "@pinia/nuxt",
+    "@vueuse/nuxt",
   ],
 });
