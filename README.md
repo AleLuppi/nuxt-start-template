@@ -1,10 +1,36 @@
-# Nuxt Minimal Starter
+# Nuxt Starter Template
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+### A clean, opinionated Nuxt starter to kick off your next project faster.
 
-## Setup
+This template is built on top of the bare Nuxt minimal starter, with the essentials already wired up so you can start building right away: it comes with useful modules, sensible defaults, and a ready-to-extend structure so you can focus on building your app instead of wiring up the basics.
 
-Make sure to install dependencies:
+The app itself is empty — you’re in charge of building it — but the structure is ready for you.
+
+> Throughout the codebase, you’ll find `NOTE:` comments pointing to the parts you can easily customize.
+
+---
+
+## Features
+
+This starter comes pre-configured with:
+
+- Nuxt modules:
+  - **[ESLint](https://eslint.org/)** – Linting rules for consistent, high-quality code.
+  - **[I18n](https://i18n.nuxtjs.org/)** – Internationalization and localization support.
+  - **[Nuxt Image](https://image.nuxt.com/)** – Optimized image handling for performance.
+  - **[Nuxt UI](https://ui.nuxt.com/)** – Ready-made, composable UI components.
+  - **[Nuxt Test Utils](https://nuxt.com/docs/getting-started/testing)** – Helpers to write tests quickly.
+  - **[Pinia](https://pinia.vuejs.org/)** – Modern, intuitive state management.
+  - **[VueUse](https://vueuse.org/)** – A rich collection of Vue composables to supercharge your development.
+- Basic App template – Includes the essential structure every modern application needs.
+- Environment variables setup – Simplified management of configuration and secrets.
+- Latest stable packages – Always start from an up-to-date foundation.
+
+> Explore [Nuxt documentation](https://nuxt.com/docs/) to see all the features offered by Nuxt framework.
+
+## Getting Started
+
+Install dependencies:
 
 ```bash
 # npm
@@ -15,14 +41,9 @@ pnpm install
 
 # yarn
 yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Start the development server on http://localhost:3000:
 
 ```bash
 # npm
@@ -33,14 +54,11 @@ pnpm dev
 
 # yarn
 yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## Deploy for Production
 
-Build the application for production:
+### Build the application
 
 ```bash
 # npm
@@ -51,12 +69,9 @@ pnpm build
 
 # yarn
 yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+### Preview the production build locally
 
 ```bash
 # npm
@@ -67,9 +82,25 @@ pnpm preview
 
 # yarn
 yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+### Start production server
+
+```bash
+# npm
+npm run start
+
+# pnpm
+pnpm start
+
+# yarn
+yarn start
+```
+
+Or, directly:
+
+```bash
+node .output/server/index.mjs
+```
+
+> Check out the [Nuxt deployment documentation](https://nuxt.com/docs/getting-started/deployment) for details and suggestions.
