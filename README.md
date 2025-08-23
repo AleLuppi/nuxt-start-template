@@ -27,6 +27,7 @@ This starter comes pre-configured with:
 - Ready to use UI components:
 
   - **[UiHeader](./app/components/ui/header.vue)** – A header component with sticky and scroll-aware behavior.
+  - **[UiHideOnIdle](./app/components/ui/hide-on-idle.vue)** – A Transition component that hides its content when the user is idle.
 
 - Basic App template – Includes the essential structure every modern application needs.
 
