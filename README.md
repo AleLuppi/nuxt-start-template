@@ -15,6 +15,7 @@ The app itself is empty — you’re in charge of building it — but the struct
 This starter comes pre-configured with:
 
 - Nuxt modules:
+
   - **[ESLint](https://eslint.org/)** – Linting rules for consistent, high-quality code.
   - **[I18n](https://i18n.nuxtjs.org/)** – Internationalization and localization support.
   - **[Nuxt Image](https://image.nuxt.com/)** – Optimized image handling for performance.
@@ -22,8 +23,15 @@ This starter comes pre-configured with:
   - **[Nuxt Test Utils](https://nuxt.com/docs/getting-started/testing)** – Helpers to write tests quickly.
   - **[Pinia](https://pinia.vuejs.org/)** – Modern, intuitive state management.
   - **[VueUse](https://vueuse.org/)** – A rich collection of Vue composables to supercharge your development.
+
+- Ready to use UI components:
+
+  - **[UiHeader](./app/components/ui/header.vue)** – A header component with sticky and scroll-aware behavior.
+
 - Basic App template – Includes the essential structure every modern application needs.
+
 - Environment variables setup – Simplified management of configuration and secrets.
+
 - Latest stable packages – Always start from an up-to-date foundation.
 
 > Explore [Nuxt documentation](https://nuxt.com/docs/) to see all the features offered by Nuxt framework.

@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col min-h-screen">
-    <header>
+    <UiHeader>
       <!-- NOTE: Customize header -->
-    </header>
+    </UiHeader>
 
     <main class="flex-grow">
       <slot />
